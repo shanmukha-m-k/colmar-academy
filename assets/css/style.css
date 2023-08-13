@@ -1,0 +1,346 @@
+/* Global Css Open */
+:root {
+    /* ui colors */
+    --bg-color-medium: #d8d8d8 !important;
+    --bg-color-light: #f3f5f5 !important;
+    --bg-color-dark: #4a4a4a !important;
+    --bg-third-section-color: #eaebec !important;
+    --bg-color-white: #ffffff !important;
+}
+
+html,
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--bg-color-medium) !important;
+}
+
+.color-medium {
+    background-color: var(--bg-color-medium) !important;
+}
+
+.color-light {
+    background-color: var(--bg-color-light) !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.section-third {
+    background-color: var(--bg-third-section-color);
+}
+
+.bg-light {
+    background-color: var(--bg-color-white);
+}
+
+/* Global Css Close */
+
+/* layout setup open */
+
+.margin-banner {
+    margin: 30px 15px !important;
+}
+
+.margin-banner-text {
+    padding-top: 20%;
+    margin-left: 20px;
+}
+
+.card-padding {
+    padding: 32px 24px;
+
+}
+
+.thumbnail-m-5 {
+    margin-right: 1%;
+    margin-left: -5%;
+}
+
+.pb-70 {
+    padding-bottom: 70px !important;
+}
+
+/* layout setup close */
+/* navbar section Open*/
+
+.brand-color-dark {
+    color: var(--bg-color-dark) !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    margin-left: -9px;
+}
+
+.brand-color-light {
+    color: #9c9c9c !important;
+    font-size: 25px !important;
+    font-weight: normal !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--bg-color-dark) !important;
+    font-size: 25px !important;
+    font-weight: bold !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--bg-color-dark) !important;
+}
+
+/* navbar section close */
+
+/* banner section open */
+.banner-image {
+    width: 97%;
+    min-height: auto;
+}
+
+.banner-h1 {
+    font-size: 35px !important;
+    color: var(--bg-color-dark) !important;
+    font-weight: bold;
+}
+
+.banner-p {
+    font-size: 20px !important;
+    color: var(--bg-color-dark) !important;
+    font-weight: normal;
+    word-spacing: 1.2px;
+}
+
+.start-btn {
+    padding: .8rem 30% !important;
+    background: #4a4a4a !important;
+    font-size: 18px !important;
+    border-radius: 0 !important;
+    max-width: 100%;
+
+}
+
+.banner-second .card {
+    border-radius: 0 !important;
+    margin-left: 2px !important;
+}
+
+.banner-second .card img {
+    border-radius: 0 !important;
+}
+/* banner section close */
+
+/* Card section Open */
+.card-body .card-title>h2 {
+    font-size: 20px !important;
+}
+
+.card-image-thumbnail {
+    height: auto !important;
+    max-width: 35% !important;
+}
+
+.learning-card {
+    font-size: 18px !important;
+    color: #9c9c9c !important;
+    font-weight: normal;
+}
+
+.learning-card-p {
+    font-size: medium !important;
+    color: #9c9c9c !important;
+    font-weight: normal;
+}
+
+.pt-32 {
+    padding-top: 32px !important;
+}
+
+.video-card {
+    max-width: 100% !important;
+    height: auto !important;
+    border: none !important;
+    background-color: #f3f5f5 !important;
+}
+
+.thumbnail-card {
+    max-height: 40% !important;
+    border: none !important;
+}
+.section3-card {
+    border: none !important;
+    background-color: #f3f5f5 !important;
+}
+/* Card section Close */
+
+/* Footer Section Open */
+.footer-text {
+    color: #767676 !important;
+    font-size: 13px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    padding-top: 16px !important;
+    padding-bottom: 20px !important;
+}
+
+.footer-link {
+    padding-top: 16px !important;
+    padding-bottom: 20px !important;
+}
+
+.footer-link>a {
+    color: #767676 !important;
+    font-size: 13px !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    padding-top: 16px !important;
+}
+/* Footer Section Close */
+
+/* Media query for small devices Open*/
+
+@media (min-width: 426px) and (max-width: 767px) {
+
+    .margin-banner {
+        margin: 0px -11px !important;
+    }
+
+    .margin-banner-text {
+        padding-top: 2% !important;
+        padding-left: 20% !important;
+        margin-left: 0px !important;
+        align-items: center !important;
+    }
+
+    .banner-image {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .banner-h1 {
+        font-size: 28px !important;
+    }
+
+    .banner-p {
+        font-size: 18px !important;
+    }
+
+    .start-btn {
+        padding: .8rem auto !important;
+    }
+    .footer-text {
+        
+        padding-top: 20px !important;
+    }
+
+}
+
+@media (min-width: 365px) and (max-width: 426px) {
+
+    .margin-banner {
+        margin: 0px -24px !important;
+    }
+
+    .margin-banner-text {
+        padding-left: 20% !important;
+        margin-left: 0px !important;
+        margin-top: -30%;
+    }
+
+    .banner-image {
+        width: 100%;
+        max-height: 80%;
+    }
+
+    .banner-h1 {
+        font-size: 24px !important;
+        ;
+    }
+
+    .banner-p {
+        font-size: 16px !important;
+    }
+
+    .start-btn {
+        padding: .8rem auto !important;
+    }
+
+    .card-padding{
+        margin-top: 15px;
+        padding: 0px 1px;
+       
+    }
+    .thumbnail-m-5 {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    .pb-70 {
+        padding-bottom: 0px !important;
+    }
+
+    .footer-link{
+        margin-left: -23px !important;
+           }
+           .footer-text {
+        
+            padding-top: 20px !important;
+        }
+}
+/* Media query for small devices Close*/
+
+/* Media query for Tablet devices Open*/
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .margin-banner {
+        margin: 20px 5px !important;
+    }
+
+    .margin-banner-text {
+        padding-top: 8% !important;
+        padding-left: 10% !important;
+        margin-left: 0px !important;
+        align-items: center !important;
+    }
+
+    .banner-image {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .banner-h1 {
+        font-size: 28px !important;
+    }
+
+    .banner-p {
+        font-size: 18px !important;
+    }
+
+    .start-btn {
+        padding: .8rem auto !important;
+    }
+    .pb-70 {
+        padding-bottom: 60px !important;
+    }
+}
+
+/* Media query for Tablet devices Close*/
+
+/* Media query for Large devices Open*/
+
+@media (min-width: 1300px) {
+    .pb-70 {
+        padding-bottom: 47px !important;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1200px) {
+    .pb-70 {
+        padding-bottom: 0px !important;
+    }
+}
+
+/* Media query for Large devices Close*/
+
+
+
+
+
