@@ -10,7 +10,7 @@ A responsive landing page.
 
 ### Description
 
- A responsive landing page developed for a new school "Colar Academy".
+ A responsive landing page developed for a new school "Colmar Academy".
 
 ### Setup/Installation Requirements
 
