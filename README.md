@@ -1,6 +1,5 @@
 # COLMAR ACADEMY
- A bootstrap responsive template developed for colar academy website
-
+A responsive landing page.
 ### Technologies Used
 
 * Html
@@ -11,9 +10,9 @@
 
 ### Description
 
- A bootstrap responsive landing page developed for a new school "Colar Academy".
+ A responsive landing page developed for a new school "Colar Academy".
 
-## Setup/Installation Requirements
+### Setup/Installation Requirements
 
 * Clone the repository to your desktop
 * Navigate to the bottom level of the directory
